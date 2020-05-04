@@ -121,7 +121,7 @@ if(cliArgs.user) //Note that even though this isn't referenced must pass it in s
   //using the cliArgs.user and cliArgs.pswd doesn't work...no time to debug
   //hardcoded for now...change if needed
   csp.UserId = "DEV1BTS.SRV"; 
-  csp.Password = "Ynot$1234"; 
+  csp.Password = "{REPLACE_ME_WITH_PASSWORD}"; 
 
   cno.SecurityParms = csp;
 }
