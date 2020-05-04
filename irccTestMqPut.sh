@@ -6,4 +6,4 @@
 #**Note that even though these -u and -p are not used they still trigger the use of the MQSCP in the send**
 
 
-node sendMsg.js -qm DEVIRCC -q WPO.EAPPS.TO.BTS.REQUEST.N1 -u DEV1BTS.SRV -p Ynot$1234
+node sendMsg.js -qm DEVIRCC -q WPO.EAPPS.TO.BTS.REQUEST.N1 -u DEV1BTS.SRV -p {REPLACE_ME_WITHPASSWORD}

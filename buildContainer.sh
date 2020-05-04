@@ -21,14 +21,9 @@ echo -e "\n${GREEN}==>Build container...${NC}\n"
 sudo docker build -t nodemqclient .
 
 #echo -e "\n${GREEN}==>Run container...${NC}\n"
-#sudo docker run -d -e EXT_CERT="*********CERT************" -e EXT_KEY="===========KEY============" --name $containername -p 8080:8080 -p 8443:8443 nginx-alpine-proxy
-
 #sudo docker run \
 #  --name nodemq 
 #  --detach \
 #  nodemqclient
 
 #sudo docker run -d --name $containername mqclient
-
-#sudo docker run -e EXT_CERT -d --name $containername -p 8080:8080 -p 8443:8443 nginx-alpine-proxy
-#sudo docker run --name $containername -p 8080:8080 -p 8443:8443 nginx-alpine-proxy
